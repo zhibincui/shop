@@ -17,6 +17,7 @@ public class UserController {
 	@RequestMapping("/hello")
 	public String user(){
 		Logger.info("hello");
+		Logger.info("word");
 		return "user";
 	}
 	
