@@ -12,6 +12,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 @Controller
 @RequestMapping("/mvc")
 public class UserController {
+	private static Logger log = LoggerFactory.getLogger(UserController.class);
 
 	@RequestMapping("/hello")
 	public String user(){
